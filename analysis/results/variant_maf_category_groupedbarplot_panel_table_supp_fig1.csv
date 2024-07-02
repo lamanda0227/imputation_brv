@@ -1,71 +1,141 @@
 panel,source,af_category,proportion
-A,ES,0.005 < MAF < 0.01,0.1%
-A,ES,0.001 < MAF <= 0.005,0.5%
-A,ES,1E-4 < MAF <= 0.001,2.2%
-A,ES,1E-5 < MAF <= 1E-4,21.3%
-A,ES,MAF <= 1E-5,75.8%
+A,ES,0.005 < MAF < 0.01,0.2%
+A,ES,0.001 < MAF <= 0.005,0.7%
+A,ES,1E-4 < MAF <= 0.001,2.5%
+A,ES,1E-5 < MAF <= 1E-4,21.4%
+A,ES,MAF <= 1E-5,75.3%
 A,HRC (0.3),0.005 < MAF < 0.01,3.7%
-A,HRC (0.3),0.001 < MAF <= 0.005,15%
-A,HRC (0.3),1E-4 < MAF <= 0.001,41%
-A,HRC (0.3),1E-5 < MAF <= 1E-4,29.4%
-A,HRC (0.3),MAF <= 1E-5,10.9%
-A,HRC + TOPMed (0.3),0.005 < MAF < 0.01,0.5%
-A,HRC + TOPMed (0.3),0.001 < MAF <= 0.005,2.2%
-A,HRC + TOPMed (0.3),1E-4 < MAF <= 0.001,8.7%
-A,HRC + TOPMed (0.3),1E-5 < MAF <= 1E-4,48.7%
-A,HRC + TOPMed (0.3),MAF <= 1E-5,39.9%
-A,TOPMed (0.3),0.005 < MAF < 0.01,0.5%
-A,TOPMed (0.3),0.001 < MAF <= 0.005,2.2%
-A,TOPMed (0.3),1E-4 < MAF <= 0.001,8.6%
-A,TOPMed (0.3),1E-5 < MAF <= 1E-4,48.8%
-A,TOPMed (0.3),MAF <= 1E-5,39.9%
-A,HRC (0.8),0.005 < MAF < 0.01,8%
-A,HRC (0.8),0.001 < MAF <= 0.005,29.4%
-A,HRC (0.8),1E-4 < MAF <= 0.001,39.9%
-A,HRC (0.8),1E-5 < MAF <= 1E-4,17%
-A,HRC (0.8),MAF <= 1E-5,5.6%
-A,HRC + TOPMed (0.8),0.005 < MAF < 0.01,1.5%
-A,HRC + TOPMed (0.8),0.001 < MAF <= 0.005,5.7%
-A,HRC + TOPMed (0.8),1E-4 < MAF <= 0.001,14.8%
-A,HRC + TOPMed (0.8),1E-5 < MAF <= 1E-4,47.8%
-A,HRC + TOPMed (0.8),MAF <= 1E-5,30.3%
-A,TOPMed (0.8),0.005 < MAF < 0.01,1.5%
-A,TOPMed (0.8),0.001 < MAF <= 0.005,5.5%
-A,TOPMed (0.8),1E-4 < MAF <= 0.001,14.2%
-A,TOPMed (0.8),1E-5 < MAF <= 1E-4,48.2%
-A,TOPMed (0.8),MAF <= 1E-5,30.6%
+A,HRC (0.3),0.001 < MAF <= 0.005,14%
+A,HRC (0.3),1E-4 < MAF <= 0.001,37.7%
+A,HRC (0.3),1E-5 < MAF <= 1E-4,29.2%
+A,HRC (0.3),MAF <= 1E-5,15.5%
+A,HRC + TOPMed (0.3),0.005 < MAF < 0.01,0.6%
+A,HRC + TOPMed (0.3),0.001 < MAF <= 0.005,2.1%
+A,HRC + TOPMed (0.3),1E-4 < MAF <= 0.001,8.1%
+A,HRC + TOPMed (0.3),1E-5 < MAF <= 1E-4,43.6%
+A,HRC + TOPMed (0.3),MAF <= 1E-5,45.6%
+A,TOPMed (0.3),0.005 < MAF < 0.01,0.6%
+A,TOPMed (0.3),0.001 < MAF <= 0.005,2.1%
+A,TOPMed (0.3),1E-4 < MAF <= 0.001,8%
+A,TOPMed (0.3),1E-5 < MAF <= 1E-4,43.7%
+A,TOPMed (0.3),MAF <= 1E-5,45.7%
+A,HRC (0.8),0.005 < MAF < 0.01,7.8%
+A,HRC (0.8),0.001 < MAF <= 0.005,25.2%
+A,HRC (0.8),1E-4 < MAF <= 0.001,36.4%
+A,HRC (0.8),1E-5 < MAF <= 1E-4,19.9%
+A,HRC (0.8),MAF <= 1E-5,10.7%
+A,HRC + TOPMed (0.8),0.005 < MAF < 0.01,1.6%
+A,HRC + TOPMed (0.8),0.001 < MAF <= 0.005,5.6%
+A,HRC + TOPMed (0.8),1E-4 < MAF <= 0.001,13.8%
+A,HRC + TOPMed (0.8),1E-5 < MAF <= 1E-4,42.8%
+A,HRC + TOPMed (0.8),MAF <= 1E-5,36.2%
+A,TOPMed (0.8),0.005 < MAF < 0.01,1.6%
+A,TOPMed (0.8),0.001 < MAF <= 0.005,5.6%
+A,TOPMed (0.8),1E-4 < MAF <= 0.001,12.7%
+A,TOPMed (0.8),1E-5 < MAF <= 1E-4,43%
+A,TOPMed (0.8),MAF <= 1E-5,37.1%
 B,ES,0.005 < MAF < 0.01,0.1%
-B,ES,0.001 < MAF <= 0.005,0.4%
-B,ES,1E-4 < MAF <= 0.001,1.8%
-B,ES,1E-5 < MAF <= 1E-4,18.6%
-B,ES,MAF <= 1E-5,79.1%
+B,ES,0.001 < MAF <= 0.005,0.3%
+B,ES,1E-4 < MAF <= 0.001,1.4%
+B,ES,1E-5 < MAF <= 1E-4,14.8%
+B,ES,MAF <= 1E-5,83.4%
 B,HRC (0.3),0.005 < MAF < 0.01,3.5%
 B,HRC (0.3),0.001 < MAF <= 0.005,13.5%
-B,HRC (0.3),1E-4 < MAF <= 0.001,40.3%
-B,HRC (0.3),1E-5 < MAF <= 1E-4,28.2%
-B,HRC (0.3),MAF <= 1E-5,14.4%
-B,HRC + TOPMed (0.3),0.005 < MAF < 0.01,0.4%
-B,HRC + TOPMed (0.3),0.001 < MAF <= 0.005,1.9%
-B,HRC + TOPMed (0.3),1E-4 < MAF <= 0.001,8%
-B,HRC + TOPMed (0.3),1E-5 < MAF <= 1E-4,45.6%
-B,HRC + TOPMed (0.3),MAF <= 1E-5,44%
-B,TOPMed (0.3),0.005 < MAF < 0.01,0.4%
-B,TOPMed (0.3),0.001 < MAF <= 0.005,1.9%
-B,TOPMed (0.3),1E-4 < MAF <= 0.001,8%
-B,TOPMed (0.3),1E-5 < MAF <= 1E-4,45.7%
-B,TOPMed (0.3),MAF <= 1E-5,44%
-B,HRC (0.8),0.005 < MAF < 0.01,7.6%
-B,HRC (0.8),0.001 < MAF <= 0.005,23.7%
-B,HRC (0.8),1E-4 < MAF <= 0.001,41.9%
-B,HRC (0.8),1E-5 < MAF <= 1E-4,19.2%
-B,HRC (0.8),MAF <= 1E-5,7.7%
-B,HRC + TOPMed (0.8),0.005 < MAF < 0.01,1.2%
-B,HRC + TOPMed (0.8),0.001 < MAF <= 0.005,4.7%
-B,HRC + TOPMed (0.8),1E-4 < MAF <= 0.001,14.6%
-B,HRC + TOPMed (0.8),1E-5 < MAF <= 1E-4,44.9%
-B,HRC + TOPMed (0.8),MAF <= 1E-5,34.6%
-B,TOPMed (0.8),0.005 < MAF < 0.01,1.2%
-B,TOPMed (0.8),0.001 < MAF <= 0.005,4.7%
-B,TOPMed (0.8),1E-4 < MAF <= 0.001,13.7%
-B,TOPMed (0.8),1E-5 < MAF <= 1E-4,45.3%
-B,TOPMed (0.8),MAF <= 1E-5,35.1%
+B,HRC (0.3),1E-4 < MAF <= 0.001,39.2%
+B,HRC (0.3),1E-5 < MAF <= 1E-4,30%
+B,HRC (0.3),MAF <= 1E-5,13.8%
+B,HRC + TOPMed (0.3),0.005 < MAF < 0.01,0.3%
+B,HRC + TOPMed (0.3),0.001 < MAF <= 0.005,1.4%
+B,HRC + TOPMed (0.3),1E-4 < MAF <= 0.001,5.9%
+B,HRC + TOPMed (0.3),1E-5 < MAF <= 1E-4,40.5%
+B,HRC + TOPMed (0.3),MAF <= 1E-5,52%
+B,TOPMed (0.3),0.005 < MAF < 0.01,0.3%
+B,TOPMed (0.3),0.001 < MAF <= 0.005,1.3%
+B,TOPMed (0.3),1E-4 < MAF <= 0.001,5.8%
+B,TOPMed (0.3),1E-5 < MAF <= 1E-4,40.5%
+B,TOPMed (0.3),MAF <= 1E-5,52%
+B,HRC (0.8),0.005 < MAF < 0.01,6.1%
+B,HRC (0.8),0.001 < MAF <= 0.005,20.9%
+B,HRC (0.8),1E-4 < MAF <= 0.001,45%
+B,HRC (0.8),1E-5 < MAF <= 1E-4,22.7%
+B,HRC (0.8),MAF <= 1E-5,5.4%
+B,HRC + TOPMed (0.8),0.005 < MAF < 0.01,0.9%
+B,HRC + TOPMed (0.8),0.001 < MAF <= 0.005,3.7%
+B,HRC + TOPMed (0.8),1E-4 < MAF <= 0.001,10.8%
+B,HRC + TOPMed (0.8),1E-5 < MAF <= 1E-4,42.5%
+B,HRC + TOPMed (0.8),MAF <= 1E-5,42.2%
+B,TOPMed (0.8),0.005 < MAF < 0.01,0.9%
+B,TOPMed (0.8),0.001 < MAF <= 0.005,3.6%
+B,TOPMed (0.8),1E-4 < MAF <= 0.001,9.8%
+B,TOPMed (0.8),1E-5 < MAF <= 1E-4,42.8%
+B,TOPMed (0.8),MAF <= 1E-5,42.9%
+C,ES,0.005 < MAF < 0.01,0.2%
+C,ES,0.001 < MAF <= 0.005,0.7%
+C,ES,1E-4 < MAF <= 0.001,2.6%
+C,ES,1E-5 < MAF <= 1E-4,22.3%
+C,ES,MAF <= 1E-5,74.3%
+C,HRC (0.3),0.005 < MAF < 0.01,3.8%
+C,HRC (0.3),0.001 < MAF <= 0.005,14.6%
+C,HRC (0.3),1E-4 < MAF <= 0.001,39.1%
+C,HRC (0.3),1E-5 < MAF <= 1E-4,29.8%
+C,HRC (0.3),MAF <= 1E-5,12.7%
+C,HRC + TOPMed (0.3),0.005 < MAF < 0.01,0.6%
+C,HRC + TOPMed (0.3),0.001 < MAF <= 0.005,2.2%
+C,HRC + TOPMed (0.3),1E-4 < MAF <= 0.001,8.3%
+C,HRC + TOPMed (0.3),1E-5 < MAF <= 1E-4,45.4%
+C,HRC + TOPMed (0.3),MAF <= 1E-5,43.6%
+C,TOPMed (0.3),0.005 < MAF < 0.01,0.6%
+C,TOPMed (0.3),0.001 < MAF <= 0.005,2.1%
+C,TOPMed (0.3),1E-4 < MAF <= 0.001,8.2%
+C,TOPMed (0.3),1E-5 < MAF <= 1E-4,45.4%
+C,TOPMed (0.3),MAF <= 1E-5,43.7%
+C,HRC (0.8),0.005 < MAF < 0.01,8%
+C,HRC (0.8),0.001 < MAF <= 0.005,27.3%
+C,HRC (0.8),1E-4 < MAF <= 0.001,37.8%
+C,HRC (0.8),1E-5 < MAF <= 1E-4,19.5%
+C,HRC (0.8),MAF <= 1E-5,7.4%
+C,HRC + TOPMed (0.8),0.005 < MAF < 0.01,1.6%
+C,HRC + TOPMed (0.8),0.001 < MAF <= 0.005,5.9%
+C,HRC + TOPMed (0.8),1E-4 < MAF <= 0.001,14.3%
+C,HRC + TOPMed (0.8),1E-5 < MAF <= 1E-4,44.4%
+C,HRC + TOPMed (0.8),MAF <= 1E-5,33.8%
+C,TOPMed (0.8),0.005 < MAF < 0.01,1.6%
+C,TOPMed (0.8),0.001 < MAF <= 0.005,5.9%
+C,TOPMed (0.8),1E-4 < MAF <= 0.001,13.2%
+C,TOPMed (0.8),1E-5 < MAF <= 1E-4,44.6%
+C,TOPMed (0.8),MAF <= 1E-5,34.7%
+D,ES,0.005 < MAF < 0.01,0.2%
+D,ES,0.001 < MAF <= 0.005,0.7%
+D,ES,1E-4 < MAF <= 0.001,2.6%
+D,ES,1E-5 < MAF <= 1E-4,20.5%
+D,ES,MAF <= 1E-5,75.9%
+D,HRC (0.3),0.005 < MAF < 0.01,3.4%
+D,HRC (0.3),0.001 < MAF <= 0.005,12.4%
+D,HRC (0.3),1E-4 < MAF <= 0.001,33.9%
+D,HRC (0.3),1E-5 < MAF <= 1E-4,27.5%
+D,HRC (0.3),MAF <= 1E-5,22.7%
+D,HRC + TOPMed (0.3),0.005 < MAF < 0.01,0.6%
+D,HRC + TOPMed (0.3),0.001 < MAF <= 0.005,2.1%
+D,HRC + TOPMed (0.3),1E-4 < MAF <= 0.001,7.9%
+D,HRC + TOPMed (0.3),1E-5 < MAF <= 1E-4,39.5%
+D,HRC + TOPMed (0.3),MAF <= 1E-5,49.8%
+D,TOPMed (0.3),0.005 < MAF < 0.01,0.6%
+D,TOPMed (0.3),0.001 < MAF <= 0.005,2.1%
+D,TOPMed (0.3),1E-4 < MAF <= 0.001,7.8%
+D,TOPMed (0.3),1E-5 < MAF <= 1E-4,39.6%
+D,TOPMed (0.3),MAF <= 1E-5,49.9%
+D,HRC (0.8),0.005 < MAF < 0.01,7.1%
+D,HRC (0.8),0.001 < MAF <= 0.005,20.1%
+D,HRC (0.8),1E-4 < MAF <= 0.001,32.3%
+D,HRC (0.8),1E-5 < MAF <= 1E-4,20.6%
+D,HRC (0.8),MAF <= 1E-5,19.9%
+D,HRC + TOPMed (0.8),0.005 < MAF < 0.01,1.6%
+D,HRC + TOPMed (0.8),0.001 < MAF <= 0.005,5.2%
+D,HRC + TOPMed (0.8),1E-4 < MAF <= 0.001,13%
+D,HRC + TOPMed (0.8),1E-5 < MAF <= 1E-4,38.9%
+D,HRC + TOPMed (0.8),MAF <= 1E-5,41.4%
+D,TOPMed (0.8),0.005 < MAF < 0.01,1.6%
+D,TOPMed (0.8),0.001 < MAF <= 0.005,5.2%
+D,TOPMed (0.8),1E-4 < MAF <= 0.001,12%
+D,TOPMed (0.8),1E-5 < MAF <= 1E-4,38.9%
+D,TOPMed (0.8),MAF <= 1E-5,42.3%
