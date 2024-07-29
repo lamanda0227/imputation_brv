@@ -1,0 +1,36 @@
+DSC:
+  csg:
+    description: Columbia Neurology CSG cluster
+    paths:
+      home: /home/{user_name}
+    queue_type: pbs
+    status_check_interval: 30
+    max_running_jobs: 200
+    max_cores: 200
+    max_walltime: "200:00:00"
+    max_mem: 200G
+    task_template: |
+      #!/bin/sh
+      #$ -l h_rt={walltime}
+      #$ -l h_vmem={mem//10**9}G
+      #$ -N job_{job_name}
+      #$ -o {cur_dir}/err_out/{job_name}.out
+      #$ -e {cur_dir}/err_out/{job_name}.err
+      #$ -cwd
+      #$ -S /bin/bash
+      micromamba activate dsc
+      set -e
+      sos execute {task} -v {verbosity} -s {sig_mode} -j 1
+    partition: ""
+    account: ""
+    submit_cmd: qsub {job_file}
+    submit_cmd_output: Your job {job_id} ("{job_name}") has been submitted # add  ""?
+    status_cmd: qstat -j {job_id}
+    kill_cmd: qdel {job_id}
+default:
+  instances_per_job: 20
+  nodes_per_job: 1
+  instances_per_node: 1
+  cpus_per_instance: 1
+  mem_per_instance: 30G
+  time_per_instance: 100m

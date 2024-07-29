@@ -1,0 +1,44 @@
+DSC:
+  csg:
+    description: Columbia Neurology CSG cluster
+    paths:
+      home: /home/{user_name}
+    queue_type: pbs
+    status_check_interval: 30
+    max_running_jobs: 100
+    max_cores: 200
+    max_walltime: "200:00:00"
+    max_mem: 200G
+    task_template: |
+      #!/bin/bash
+      #{partition}
+      #{account}
+      #SBATCH --time={walltime}
+      #SBATCH -p CSG
+      #SBATCH --nodes={nodes}
+      #SBATCH --cpus-per-task={cores}
+      #SBATCH --mem={mem//10**9}G
+      #SBATCH --job-name={job_name}
+      #SBATCH --output={cur_dir}/err_out/{job_name}.out
+      #SBATCH --error={cur_dir}/err_out/{job_name}.err
+      set -e
+      sos execute {task} -v {verbosity} -s {sig_mode} -j 1
+    partition: "SBATCH --partition=CSG"
+    partition: ""
+    account: ""
+    submit_cmd: sbatch {job_file}
+    submit_cmd_output: "Submitted batch job {job_id}"
+    status_cmd: squeue --job {job_id}
+    kill_cmd: scancel {job_id}
+default:
+  queue: csg
+  instances_per_job: 20
+  nodes_per_job: 1
+  instances_per_node: 1
+  cpus_per_instance: 1
+  mem_per_instance: 25G
+  time_per_instance: 20m
+simulate_phenotype:
+  mem_per_instance: 60G
+  time_per_instance: 30m
+
